@@ -1,0 +1,46 @@
+@import "_nullstyle";
+@import "_header";
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #0d1321;
+   background-color: #28b67e;
+}
+body._lock{
+   overflow: hidden;
+}
+
+.wrapper{}
+
+.page{
+   padding: 90px 0px 30px 0px;
+   &__section{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px;
+      &_1{
+         background-color: #ece9e9;
+      }
+      &_2{
+         background-color: #d3dcde;
+      }
+      &_3{
+         background-color: #ece9e9;
+      }
+   }
+   &__title {
+      font-size: 40px;
+      margin: 0px 0px 20px 0px;
+   }
+   &__sub-title {
+      font-size: 30px;
+      margin: 0px 0px 20px 0px;
+   }
+   &__text{
+      font-size: 16px;
+      line-height: 150%;
+      p{
+         margin: 0px 0px 20px 0px;
+      }
+   }
+} 
